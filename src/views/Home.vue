@@ -1,10 +1,10 @@
 <template>
-    <div class="home">
+    <div class="home" >
         <div data-aos="fade-up-left"
     data-aos-offset="500"
      data-aos-easing="ease-in-sine">
             <v-carousel>
-                <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src" reverse-transition="fade-transition" transition="fade-transition" style="height:auto; width: auto; "></v-carousel-item>
+                <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src" reverse-transition="fade-transition" transition="fade-transition" style="height:auto; width: auto; "> </v-carousel-item>
             </v-carousel>
         </div>
         <div data-aos="fade-up"
@@ -13,8 +13,8 @@
             <h1 class="do ma-5" align="center" justify="center"> <span class="an" style="font-family: 'Poppins', sans-serif;"><b>Daily News Ukraine</b></span></h1>
             <v-container fluid>
                 <v-row dense>
-                    <v-col v-for="result in news" :key="result" cols="12" sm="4">
-                        <v-card :elevation="hover ? 16 : 8" class="ma-2 rounded-l">
+                    <v-col v-for="result in news" :key="result" cols="12" sm="4" >
+                        <v-card :elevation="hover ? 16 : 8" class="ma-2 rounded-l" color="yellow lighten-5" >
                             <v-col md="12">
                                 <span v-if="result.images[0]"> 
                     <img
@@ -90,8 +90,7 @@
                 </v-row>
             </v-container>
         </div>
-        <div class="pt-4 go" data-aos="fade-up"
-     data-aos-anchor-placement="top-center" >
+        <div class="pt-4 go" data-aos="fade-left" >
             <div align="center" justify="center" style="
               bottom: 0px;
              display: block;
