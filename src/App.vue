@@ -43,7 +43,6 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    margin-bottom: 10px;
 }
 
 @keyframes floating {

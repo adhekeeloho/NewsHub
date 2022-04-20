@@ -4,7 +4,7 @@
     data-aos-offset="500"
      data-aos-easing="ease-in-sine">
             <v-carousel>
-                <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src" reverse-transition="fade-transition" transition="fade-transition" style="height:auto; width: auto; "> </v-carousel-item>
+                <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src" reverse-transition="fade-transition" transition="fade-transition"> </v-carousel-item>
             </v-carousel>
         </div>
         <div data-aos="fade-up"
